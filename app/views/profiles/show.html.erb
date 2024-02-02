@@ -4,24 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheets" href="application.css">
+    <script src="https://kit.fontawesome.com/dc34850888.js" crossorigin="anonymous"></script>
     <title>LinkedIn Profile</title>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Headline / Job Title</p>
-    </header>
-    <section class="profile">
-        <article>
-            <h2>About Me</h2>
-            <p>
-                Your bio or a brief description about yourself.
-            </p>
-        </article>
-        <!-- Add more sections for experience, education, etc. -->
-    </section>
-    <footer>
-        <p>Contact Information: your.email@example.com</p>
-    </footer>
+<header>
+
+<input type="text" class="search-bar" placeholder="Pesquisar...">
+
+    <a href="#">
+        <i class="fa-solid fa-briefcase"></i>
+            Vagas
+    </a>
+        <a href="#">
+            <i class="fa-solid fa-user"></i>
+            Perfil
+        </a>
+            <a href="#">
+                <i class="fa-solid fa-bell"></i>
+                Noticias
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-comments"></i>
+                Mensagem
+            </a>
+</header>
+<div class="profile-container">
+<div class="profile-header">
+    <h1>Nome do Candidato</h1>
+    <p>Cidade, Estado</p>
+</div>
+
+<img src="caminho-da-sua-foto.jpg" alt="Foto de Perfil" class="profile-picture">
+
+<div class="info-section">
+    <h2>Resumo</h2>
+    <p>
+        Sou um estudante de [Seu Curso] com paixão por [Área de Interesse]. Busco um estágio para aplicar e desenvolver meus conhecimentos em um ambiente profissional.
+    </p>
+</div>
+
+<div class="info-section skills">
+    <h2>Competências</h2>
+    <ul>
+        <li>Programação em HTML, CSS, JavaScript</li>
+        <li>Design responsivo e UX/UI</li>
+        <li>Trabalho em equipe</li>
+        <li>Comunicação eficaz</li>
+    </ul>
+</div>
+
+<div class="info-section experience">
+    <h2>Experiência Profissional</h2>
+    <p>
+        <strong>Desenvolvedor Front-end - Empresa ABC</strong><br>
+        <em>Data de Início a Data de Término</em>
+    </p>
+    <p>
+        Desenvolvi e mantive interfaces web responsivas, colaborando com a equipe de design e integrando APIs.
+    </p>
+
+    <p>
+        <strong>Assistente de Marketing - Empresa XYZ</strong><br>
+        <em>Data de Início a Data de Término</em>
+    </p>
+    <p>
+        Coordenei campanhas de marketing digital, analisei dados de desempenho e criei relatórios para otimização.
+    </p>
+</div>
+</div>
 </body>
 </html>

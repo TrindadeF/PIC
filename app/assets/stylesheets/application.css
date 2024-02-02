@@ -13,40 +13,94 @@
  *= require_tree .
  *= require_self
  */
-
  body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.search-bar {
+    margin-right: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
 }
 
 header {
-    background-color: #0077b5;
-    color: #ffffff;
-    padding: 20px;
+    background-color: #323235;
+    padding: 13px;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+header a {
+    color: white;
+    text-decoration:none;
+    margin-left: 20px;
+    flex-direction:column;
 }
 
-section.profile {
+header a i {
+    margin-bottom: 5px; 
+    color: rgb(247, 242, 242); 
+}
+
+.profile-container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(128, 126, 143);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-article {
+.profile-header {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #0077b5;
-    color: #ffffff;
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    background-color: #ddd; /* Adicione uma cor de fundo padrão para casos em que a imagem não é carregada */
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(77, 74, 74);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: black; /* Cor do texto dentro do container de perfil (pode ser ajustada conforme necessário) */
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.experience p {
+    margin: 8px 0;
+    line-height: 1.4;
 }
